@@ -25,6 +25,7 @@ class CursoRepositoryTest {
 		Curso curso = repository.findByNome(nomeCurso);
 		Assert.assertNotNull(curso);
 		Assert.assertEquals(nomeCurso, curso.getNome());
+		
 	}
 
 	@Test
