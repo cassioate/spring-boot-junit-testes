@@ -40,12 +40,8 @@ class CursoRepositoryTest {
 		//Fazendo a comparação se existe um curso HTML 5 no banco;
 		Curso curso = repository.findByNome("HTML 5");
 		Assert.assertNotNull(curso);
-<<<<<<< HEAD
-		Assert.assertEquals(nomeCurso, curso.getNome());
-		
-=======
+
 		Assert.assertEquals("HTML 5", curso.getNome());
->>>>>>> main
 	}
 
 	@Test
